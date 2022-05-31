@@ -9,4 +9,3 @@ def remove_char_at(str, n):
         if (str[i] != str[n]):
             arr.append(str[i])
     return ''.join(arr)
-
