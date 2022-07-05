@@ -15,7 +15,7 @@ class Student:
     def to_json(self, attrs=None):
         """to_json"""
         obj = self.__dict__.copy()
-        if type(attrs) == type(list):
+        if type(attrs) is list:
             for i in attrs:
                 if type(i) is not str:
                     return obj
